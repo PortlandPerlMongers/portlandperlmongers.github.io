@@ -1,0 +1,7 @@
+markdown: rdiscount
+pygments: true
+exclude:
+  - config.ru
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
