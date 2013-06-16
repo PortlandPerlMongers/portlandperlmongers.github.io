@@ -8,6 +8,12 @@ http://pdx.pm.org is hosted using [Github Pages][4] and powered by [Jekyll][1], 
 
 If you would like to contribute to this repo, fork and please send a pull request!
 
+# Attribution
+
+This site is build on the template that<a
+href='https://github.com/bak'>@bak</a> built for <a
+href='https://github.com/pdxgit/pdxgit.github.com'>@pdxgit</a>.
+
 # License
 
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode">
