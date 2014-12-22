@@ -4,15 +4,33 @@ This is the code that builds http://pdx.pm.org. Patches welcome.
 
 http://pdx.pm.org is hosted using [Github Pages][4] and powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][3].
 
+# Adding a Meetings
+
+To add a meeting announcement, submit a pull request that adds a Markdown file
+to the `_posts` path. The file must be named in the format
+`YYYY-MM-DD-<title>.md` and should have the proper metadata at the top of the
+file:
+
+```
+---
+title: Jan 2015 - Title
+layout: article
+category: meetings
+excerpt: This is the excerpt.
+---
+
+This is the body.
+```
+
 # Contributing
 
 If you would like to contribute to this repo, fork and please send a pull request!
 
 # Attribution
 
-This site is build on the template that<a
-href='https://github.com/bak'>@bak</a> built for <a
-href='https://github.com/pdxgit/pdxgit.github.com'>@pdxgit</a>.
+This site is build on the template that
+<a href='https://github.com/bak'>@bak</a> built for
+<a href='https://github.com/pdxgit/pdxgit.github.com'>@pdxgit</a>.
 
 # License
 

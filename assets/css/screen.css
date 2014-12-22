@@ -39,3 +39,19 @@ p.calagator-link a:active {
   padding: 10px;
   margin-bottom: 1.0em;
 }
+
+article.meeting h3 {
+  margin: .3em 0em;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+article.meeting p {
+  margin: .3em 0em;
+}
+
+article.meeting p.date {
+  text-align: right;
+  font-style: italic;
+  color: #888;
+}
