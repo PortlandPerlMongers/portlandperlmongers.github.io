@@ -1,6 +1,7 @@
 <nav class='navbar'>
   <div class='navbar-inner'>
-    <a {% if page.title == 'Home' %} class='active' {% else %} class='brand' {% endif %} rel='home' href='/'>PDX.pm</a>
+    {% if page.title == 'Home' %} <a class='brand' rel='home' href='/'>PDX.pm</a>
+      {% else %} <span class='brand'>PDX.pm</span> {% endif %} 
     <ul class='nav' style='float:right'>
       <li class='divider-vertical'></li>
       <li><a href='http://twitter.com/pdxperlmongers'><span class='icon-twitter'></span>@pdxperlmongers</a></li>
