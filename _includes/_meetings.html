@@ -1,19 +1,7 @@
 <h2>Meetings</h2>
-{% for meeting in site.categories.meetings limit:3 %}
-  <article class="meeting">
-    <h3><a href='{{ meeting.url }}'>{{ meeting.title }}</a></h3>
-    <p>{{ meeting.excerpt }}</p>
-    <p class='date'>{{ meeting.date | date_to_string }}</p>
-  </article>
-{% else %}
-  <p>
-    There are no meetings listed currently.
-  </p>
-{% endfor %}
+<a href='http://calagator.org/events/tag/pdxpm'>See calagator for upcoming meetings.</a>
 
 <ul>
-  <li><a href='https://github.com/PortlandPerlMongers/portlandperlmongers.github.io/wiki/FutureMeetings'>Future meetings</a></li>
-  <li><a href='https://github.com/PortlandPerlMongers/portlandperlmongers.github.io/wiki/PastMeetings'>Past meetings</a></li>
   <li><a href='https://github.com/PortlandPerlMongers/portlandperlmongers.github.io/wiki/MeetingWishlist'>Meeting wish list</a></li>
     
 </ul>
