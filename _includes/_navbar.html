@@ -1,19 +1,15 @@
 <nav class='navbar'>
   <div class='navbar-inner'>
-    <a class='brand' rel='home' href='/'>PDX.pm</a>
+    <a {% if page.title == 'Home' %} class='active' {% else %} class='brand' {% endif %} rel='home' href='/'>PDX.pm</a>
     <ul class='nav' style='float:right'>
       <li class='divider-vertical'></li>
-      <!-- !!! ALL OF THIS IS ON THE WIKI !!!
-      <li{% if page.title == 'Presentations' %} class='active'{% endif %}><a href='/presentations'>Presentations</a></li>
-      -->
-      <li{% if page.title == 'Meetings' %} class='active'{% endif %}><a href='/meetings'>Meetings</a></li>
-      <li class='divider-vertical'></li>
       <li><a href='http://twitter.com/pdxperlmongers'><span class='icon-twitter'></span>@pdxperlmongers</a></li>
-      <li><a href='https://github.com/PortlandPerlMongers/portlandperlmongers.github.io/wiki'><span class="icon-comments"></span>Wiki</a></li>
       <li><a href='http://mail.pm.org/mailman/listinfo/pdx-pm-list'><span class='icon-envelope-alt'></span>List</a></li>
-      <li><a href='http://calagator.org/events/search?query=pdx.pm'><span class='icon-calendar'></span>Calagator</a></li>
+      <li class='divider-vertical'></li>
+      <li><a href='http://calagator.org/events/tag/pdxpm'><span class='icon-calendar'></span>Calagator</a></li>
+      <li><a href='http://calagator.org/events/search.atom?tag=pdxpm'><span class='icon-rss'></span>Calagator Feed</a></li>
+      <li class='divider-vertical'></li>
       <li><a href='https://github.com/PortlandPerlMongers'><span class="icon-github"></span>Github</a></li>
-      <li><a href='/atom.xml'><span class='icon-rss'></span>Feed</a>
     </ul>
   </div>
 </nav>
